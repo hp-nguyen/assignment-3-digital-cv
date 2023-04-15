@@ -5,6 +5,10 @@
   html {
     font-size: 56.25%; /* 9/16px*/
   }
+  /* BANNER */
+  #banner {
+    background-attachment: initial;
+  }
   /* NAVBAR */
   /* Hide Avartar */
   .avatar-border {
