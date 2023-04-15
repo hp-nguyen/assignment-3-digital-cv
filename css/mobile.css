@@ -1,0 +1,48 @@
+@media (max-width: 576px) {
+  /* BANNER */
+  #banner h1 {
+    font-size: 9vw;
+  }
+  #banner span {
+    font-size: calc(10px + 1vw);
+  }
+
+  /* ABOUT SECTION */
+  #about > .container-fluid {
+    display: block;
+  }
+
+  /* JOB INFO SECTION */
+  #job-info > .grid {
+    grid-template-areas: unset;
+    grid-template-columns: 1fr;
+  }
+  #job-info > .grid > * {
+    grid-area: unset;
+  }
+  .score {
+    width: 10vw;
+  }
+
+  /* CERTIFICATE SECTION  */
+  .vertical-line,
+  .horizontal-line {
+    display: none;
+  }
+  #certificate > .container-fluid {
+    grid-template-columns: 1fr;
+    gap: 4.8rem;
+  }
+  .certificate-card:not(:last-child) {
+    border-bottom: 2px solid #d6c08d;
+    padding-bottom: 4.8rem;
+  }
+
+  /* FOOTER  */
+  #footer .container-fluid {
+    padding-inline: 0;
+  }
+  #footer ul {
+    font-size: var(--flex-text);
+  }
+}
