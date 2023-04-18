@@ -100,7 +100,6 @@ section > .container-fluid {
 /* NAV BAR */
 .nav-link {
   width: 18rem;
-  text-align: center;
   font-weight: 600;
   letter-spacing: 0.5px;
   text-decoration: none;
